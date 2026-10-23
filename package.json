@@ -1,0 +1,15 @@
+{
+  "name": "hassan-jamal-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio of Hassan Jamal — Full Stack Engineer",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

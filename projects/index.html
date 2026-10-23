@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Built &amp; Contributed To — Project Index</title>
+<meta name="description" content="A catalog of client work, freelance builds, and personal projects across WordPress, Laravel, MERN/Next.js, and Shopify.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet"></noscript>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <span class="brand-mark">Portfolio Index</span>
+      <span class="brand-text">Built &amp; Contributed To</span>
+    </div>
+    <p class="subtitle">Client work, freelance builds, and personal projects — organized by stack: WordPress, Laravel, MERN/Next.js, and Shopify.</p>
+  </div>
+</header>
+
+<main class="container">
+  <div class="toolbar">
+    <div class="tabs" id="tabs"></div>
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search projects...">
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+
+  <section class="grid" id="grid"></section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Built with care. &copy; <span id="year"></span></p>
+  </div>
+</footer>
+
+<!-- Detail Modal -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="modal-mockup" id="modalMockup"></div>
+    <div class="modal-body">
+      <span class="modal-tag" id="modalTag"></span>
+      <h2 id="modalTitle"></h2>
+      <p id="modalUrl" class="modal-url"></p>
+      <p id="modalCaseStudy" class="modal-case-study"></p>
+      <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary">Visit Live Project &rarr;</a>
+    </div>
+  </div>
+</div>
+
+<script src="data.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
